@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Put, Param, Delete, Res, Query, UseInterceptors, UploadedFile, Request } from '@nestjs/common';
+import { Controller, Get, Post, Body, Put, Param, Delete, Res, Query, UseInterceptors, UploadedFile, Request, UseGuards } from '@nestjs/common';
 import { GamesService } from './games.service';
 import { CreateGameDto } from './dto/create-game.dto';
 import { UpdateGameDto } from './dto/update-game.dto';
@@ -10,6 +10,9 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { Observable, of } from 'rxjs';
 import { Game } from './entities/game.entity';
 import { tap, map } from 'rxjs/operators';
+import { Roles } from './role.decorator';
+import { Role } from './role.enum';
+import { RolesGuard } from './role.guard';
 
 export const GAME_ENTRIES_URL ='http://localhost:3000/games';
 
@@ -25,9 +28,11 @@ export const storge = {
 }
 
 @Controller('games')
+@UseGuards(RolesGuard)
 export class GamesController {
   constructor(private readonly gamesService: GamesService) {}
 
+  @Roles(Role.Admin)
   @Post()
   public async create(@Body() createGameDto: CreateGameDto) {
     return await this.gamesService.create(createGameDto);
@@ -107,6 +112,7 @@ export class GamesController {
     return this.gamesService.update(+id, updateGameDto);
   }
 
+  @Roles(Role.Admin)
   @Delete(':id')
   remove(@Param('id') id: string) {
     return this.gamesService.remove(+id);

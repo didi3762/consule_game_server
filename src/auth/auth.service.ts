@@ -16,6 +16,13 @@ export class AuthService {
         return  await jwt 
     }
 
+    async generateToken(token:string): Promise <string>{
+        
+        const jwt = await this.jwtService.verify(token)
+        // console.log('i verify',jwt);
+        return  await {...jwt.user }
+    }
+
     async hashPassword(password:string): Promise <string>{
         return await <string>(hash(password,12))
     }

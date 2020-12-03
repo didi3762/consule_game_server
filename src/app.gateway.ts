@@ -6,91 +6,45 @@ import { Socket, Server } from 'socket.io';
 export class AppGateway implements OnGatewayInit, OnGatewayConnection, OnGatewayDisconnect {
   
 
-  @WebSocketServer() wss: Server;
+  @WebSocketServer() server: Server;
+ private logger: Logger = new Logger('AppGateway');
 
-  private  logger = new Logger('AppGateway');
+//  @SubscribeMessage('msgToServer')
+//  handleMessage(client: Socket, payload: string): void {
+//    console.log('msgToServer');
+   
+//   this.server.emit('msgToClient', payload);
+//  }
 
-  afterInit(server: any){
-    this.logger.log('Initialized!')
-    console.log('Initialized!');
-    
-  }
+ @SubscribeMessage('create_ansowers')
+ handleMessage(client: Socket, payload: string): void {
+   console.log('send_to_client');
+   
+  this.server.emit('create_dic', payload);
+ }
 
-  
-  handleConnection(client: Socket, ...args:any[]){
-    // this.logger.log(`Client connected: ${client.id}`)
-    // client.emit('connection', 'Successfuly connected to server')
-    // this.wss.emit('position', this.position);
-   return console.log('connection');
-    
-  }
+ @SubscribeMessage('card')
+ sendcard(client: Socket, payload: string): void {
+   console.log('sendcard');
+   
+  this.server.emit('sendcard', payload);
+ }
+ @SubscribeMessage('start')
+ start_client(client: Socket, payload: string): void {
+   console.log('start_client');
+   
+  this.server.emit('start_client', payload);
+ }
 
-  handleDisconnect(client: Socket) {
-    // this.logger.log(`Client connected: ${client.id}`)
-    console.log('disconnect');
-    
-  }
+ afterInit(server: Server) {
+  this.logger.log('Init');
+ }
 
-  
-  // @UseFilters(new WsExceptionFilter())
-  @SubscribeMessage('move')
-  async handleMessage(client: Socket, text: string){
-      // return { event: 'msgToServer', data:text}
-      this.logger.log(`Client move: ${client.id}`)
-     await console.log(`Client move: ${text}`)
-      
-        
-      //   this.wss.on('move', data => {
-      //     switch (data) {
-      //       case 'left':
-      //         this.position.x = this.position.x -5
-      //         this.wss.emit('position', this.position);
-      //         break;
-      //       case 'right':
-      //         this.position.x = this.position.x + 5
-      //         this.wss.emit('position', this.position);
-      //         break;
-      //       case 'up':
-      //         this.position.y = this.position.y -5
-      //         this.wss.emit('position', this.position);
-      //         break;
-            // case 'down':
-      //         this.position.y = this.position.y + 5
-      //         this.wss.emit('position', this.position);
-      //         break;
-      //     }
-        
-      // })
-  }
+ handleDisconnect(client: Socket) {
+  this.logger.log(`Client disconnected: ${client.id}`);
+ }
 
-  position = {
-    x: 200,
-    y: 200,
-  }
-
-//  handleGame(){
-//   this.wss.on('connected', socket =>{
-//     socket.emit('position', this.position);
-//     this.wss.on('move', data => {
-//       switch (data) {
-//         case 'left':
-//           this.position.x = this.position.x -5
-//           this.wss.emit('position', this.position);
-//           break;
-//         case 'right':
-//           this.position.x = this.position.x + 5
-//           this.wss.emit('position', this.position);
-//           break;
-//         case 'up':
-//           this.position.y = this.position.y -5
-//           this.wss.emit('position', this.position);
-//           break;
-//         case 'down':
-//           this.position.y = this.position.y + 5
-//           this.wss.emit('position', this.position);
-//           break;
-//       }
-//     })
-//   })
-//  } 
+ handleConnection(client: Socket, ...args: any[]) {
+  this.logger.log(`Client connected: ${client.id}`);
+ }
 }

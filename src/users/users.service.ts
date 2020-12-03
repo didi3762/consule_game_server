@@ -29,7 +29,10 @@ export class UsersService {
     new_user.name= createUserDto.full_name;
     new_user.password =  passwordHash;
     new_user.scores= createUserDto.scores;
-    this.gateway.wss.emit('new_user', new_user)
+    new_user.photo_url = createUserDto.photo_url
+    console.log(new_user);
+    
+    this.gateway.server.emit('new_user', new_user)
     const user = await this.repo.save(new_user);
     const {password, ...result} =  user;
      return result

@@ -16,6 +16,9 @@ export class CreateUserDto {
     @IsString()
     password?:string
 
+    @IsString()
+    photo_url?:string
+
     @IsNumber()
     sum_score?:number
 

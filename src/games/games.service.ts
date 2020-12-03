@@ -38,12 +38,6 @@ export class GamesService {
   async findUsers(_start){
      const games = await this.repo.find();
      const filter = await games.filter(game=> game.name.includes(_start))
-    console.log(filter);
-    
-    // const games_ad = await games.find(game=>{
-    //   game['user']['email'] == _email
-    // })
-    // console.log(games_ad);
     
     return await filter
   }

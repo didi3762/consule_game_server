@@ -18,7 +18,7 @@ export class User extends BaseEntity {
     password:string
 
     @Column({nullable:true})
-    pothoUrl:string
+    photo_url:string
 
     @Column({nullable:true})
     sum_score:number

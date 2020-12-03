@@ -37,14 +37,14 @@ export class UsersController {
   @Post('upload')
   @UseInterceptors(FileInterceptor('uploadfile',storge))
  public async loadFile(@UploadedFile() file) {
-    console.log(file);
-    
+    return { filename: file.filename }
   }
 
-  @Get('get-upload/:filename')
+  @Get('/get_upload/:filename')
  public async getUploadFile(@Param('filename') filename,@Res() res) {
-    return await res.sendFile(join(process.cwd(),'/uploads/profileimages', filename))
+    return await res.sendFile(join(process.cwd(),'uploads/profileimages', filename))
   }
+
 
   // @Get()
   // index(
