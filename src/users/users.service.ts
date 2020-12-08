@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { User } from './entities/user.entity';
@@ -30,6 +30,7 @@ export class UsersService {
     new_user.password =  passwordHash;
     new_user.scores= createUserDto.scores;
     new_user.photo_url = createUserDto.photo_url
+    new_user.is_active = true
     console.log(new_user);
     
     this.gateway.server.emit('new_user', new_user)
@@ -46,8 +47,12 @@ export class UsersService {
 
   public async findByMail(_email: string) {
     const user = await this.findBy(_email);
-    const {password, ...result} =  user;
-     return result
+    if (user) {
+      const {password, ...result} =  user;
+      return result
+    }
+    return
+    
   }
 
   public async findBy(_email: string) {
@@ -68,6 +73,8 @@ export class UsersService {
     
   }
 
+ 
+
   async login(createUserDto: CreateUserDto){
     const user = await this.validateUser(createUserDto.email,createUserDto.password); 
     if (user) {
@@ -85,6 +92,8 @@ export class UsersService {
     if (user) {
       const match = await this.authService.comparePasswords(password,user.password)
     if (match) {
+      user.is_active = true;
+      user.save()
       const {password, ...result} =  user;
       return result
     }else{
@@ -94,6 +103,17 @@ export class UsersService {
     }
     }
     
+  }
+
+  public async sign_out(_email: string){
+    console.log(_email);
+    
+    const user = await this.repo.findOne(_email,{relations:['scores']});
+    user.is_active = false
+    user.save()
+    const user_default = await this.repo.findOne("d@default.com",{relations:['scores']});
+    return user_default
+
   }
 
   remove(id: number) {

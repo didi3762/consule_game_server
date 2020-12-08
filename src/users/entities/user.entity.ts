@@ -26,6 +26,9 @@ export class User extends BaseEntity {
     @Column({nullable:true})
     role:string
 
+    @Column({nullable:true})
+    is_active:boolean = false
+
     @OneToMany(() => Score, score => score.user, { cascade: true })
     @JoinTable() 
     scores: Score[];

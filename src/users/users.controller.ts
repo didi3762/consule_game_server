@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Put, Param, Delete , Query, Req, UseInterceptors, UploadedFile, Res} from '@nestjs/common';
+import { Controller, Get, Post, Body, Put, Param, Delete , Query, Req, UseInterceptors, UploadedFile, Res, UseFilters, UseGuards} from '@nestjs/common';
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
@@ -11,6 +11,8 @@ import { join } from 'path'
 import { Observable, from } from 'rxjs';
 import { User } from './entities/user.entity';
 import { map } from 'rxjs/operators';
+import { HttpExceptionFilter } from './http-exception.filter';
+import { ExisstingGuard } from './is_existis.guard';
 
 export const storge = {
   storage: diskStorage({
@@ -28,6 +30,7 @@ export class UsersController {
   constructor(private readonly usersService: UsersService) {}
 
   @Post()
+  @UseGuards(ExisstingGuard )
  public async create(@Body() createUserDto: CreateUserDto) {
     const player = await this.usersService.create(createUserDto);
     
@@ -89,6 +92,10 @@ export class UsersController {
   @Put(':email')
   update(@Param('email') email: string, @Body() updateUserDto: UpdateUserDto) {
     return this.usersService.update(email, updateUserDto);
+  }
+  @Get('sign_out/:email')
+  sign_out(@Param('email') email: string, @Body() updateUserDto: UpdateUserDto) {
+    return this.usersService.sign_out(email)
   }
 
   @Delete(':id')

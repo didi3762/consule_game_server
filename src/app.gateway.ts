@@ -9,15 +9,8 @@ export class AppGateway implements OnGatewayInit, OnGatewayConnection, OnGateway
   @WebSocketServer() server: Server;
  private logger: Logger = new Logger('AppGateway');
 
-//  @SubscribeMessage('msgToServer')
-//  handleMessage(client: Socket, payload: string): void {
-//    console.log('msgToServer');
-   
-//   this.server.emit('msgToClient', payload);
-//  }
-
  @SubscribeMessage('create_ansowers')
- handleMessage(client: Socket, payload: string): void {
+ handleCreate(client: Socket, payload: string): void {
    console.log('send_to_client');
    
   this.server.emit('create_dic', payload);
@@ -29,11 +22,41 @@ export class AppGateway implements OnGatewayInit, OnGatewayConnection, OnGateway
    
   this.server.emit('sendcard', payload);
  }
+
  @SubscribeMessage('start')
  start_client(client: Socket, payload: string): void {
    console.log('start_client');
    
   this.server.emit('start_client', payload);
+ }
+
+
+ @SubscribeMessage('chatToServer')
+ handleMessage(client: Socket, message: { sender: string, room:string , message:string, photo_url:string}): void {
+  console.log('chatToServer',message);
+  this.server
+  .to(message.room)
+  .emit('chatToClient', message);
+ }
+
+ @SubscribeMessage('signUser')
+ handleSignin(client: Socket, user: { sender: string, room:string , message:string }): void {
+  console.log('signUser',user);
+       this.server.to(user.room).emit('user_aded', user);
+ }
+
+ @SubscribeMessage('joinRoom')
+ handlejoinRoom(client: Socket, room: string): void {
+   console.log('joinRoom',room);
+   client.join(room);
+   client.emit('joinedRoom',room)
+ }
+
+ @SubscribeMessage('leaveRoom')
+ hanleLeaveRoom(client: Socket, room: string): void {
+   console.log('leaveRoom');
+   client.leave(room)
+   client.emit('leftRoom', room);
  }
 
  afterInit(server: Server) {
