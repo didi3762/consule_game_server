@@ -23,7 +23,7 @@ import { Score } from './score/entities/score.entity';
      ConfigModule.forRoot({isGlobal:true}),
      TypeOrmModule.forRoot({
     type: 'postgres',
-    url:"postgres://yohiqixrmcvqqw:45f3a5bd4167278c4398450d025e5bd5c65a15ef83a8cce14b67f9d579505e6f@ec2-50-19-247-157.compute-1.amazonaws.com:5432/dco9dqo9sgrin1",
+    url:process.env.DATABASE_URL,
     // host: 'localhost',
     // port: 5432,
     // username: 'postgres',
