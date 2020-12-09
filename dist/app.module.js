@@ -28,14 +28,14 @@ const path_1 = require("path");
 const serve_static_1 = require("@nestjs/serve-static");
 let AppModule = class AppModule {
     constructor() {
-        console.log(path_1.join(process.cwd(), 'dist', 'angular', 'dist', 'gameproj/'));
+        console.log(path_1.join(__dirname, '..', '..', 'dist', 'angular', 'dist', 'gameproj'));
     }
 };
 AppModule = __decorate([
     common_1.Module({
         imports: [
             serve_static_1.ServeStaticModule.forRoot({
-                rootPath: path_1.join(path_1.join(__dirname, '..', '..', 'dist', 'angular', 'dist', 'nest-to-game-cunsule')),
+                rootPath: path_1.join(path_1.join(__dirname, '..', '..', 'dist', 'angular', 'dist', 'gameproj')),
             }),
             users_module_1.UsersModule,
             database_module_1.DatabaseModule,
