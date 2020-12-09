@@ -20,7 +20,7 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(join('..','..','nest-to-game-cunsule','dist','angular','dist','gameproj')),
+      rootPath: join(join(__dirname,'..','..','dist','angular','dist','nest-to-game-cunsule')),
     }),
     UsersModule,
      DatabaseModule, 
@@ -52,7 +52,7 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 })
 export class AppModule {
   constructor(){
-      console.log(join(__dirname,'..','..','dist','angular','dist','gameproj'));
+      console.log(join(process.cwd() , 'dist','angular','dist','gameproj/'));
       
   }
 }
