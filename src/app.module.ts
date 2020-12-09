@@ -20,7 +20,7 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname,'.','dist','angular','dist','gameproj'),
+      rootPath: join(__dirname,'..','angular','dist','gameproj'),
     }),
     UsersModule,
      DatabaseModule, 
@@ -34,7 +34,7 @@ import { ServeStaticModule } from '@nestjs/serve-static';
     // username: 'postgres',
     // password: 'postgres',
     // database: 'GamingConsole',
-    logging:true,
+    // logging:true,
     entities: [User,Game,Score],
     synchronize: true,
   }),
@@ -50,4 +50,9 @@ import { ServeStaticModule } from '@nestjs/serve-static';
     ],
   exports : [DatabaseModule]
 })
-export class AppModule {}
+export class AppModule {
+  constructor(){
+      console.log(join(__dirname,'..','angular','dist','gameproj'));
+      
+  }
+}
