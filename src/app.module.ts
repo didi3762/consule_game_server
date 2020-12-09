@@ -20,7 +20,7 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(join(__dirname,'..','..','dist','angular','dist','gameproj')),
+      rootPath: join(join(__dirname,'..','..','nest-to-game-cunsule','dist','angular','dist','gameproj')),
     }),
     UsersModule,
      DatabaseModule, 
