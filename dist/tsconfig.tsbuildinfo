@@ -3834,7 +3834,7 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
       "../src/app.module.ts": {
-        "version": "a44ff44bb480251edbd9d8b97b9e27e760f97a735ef454a8bcf7483a535242e6",
+        "version": "a27af7c2b6897177aae5183ab3e30f6899d3f2c0bd1d86f74dc246cc4458a739",
         "signature": "921db1cd2917ed9d0331106b2a6df73f52f1af1b240723b5e17b6dbc95094a0a"
       },
       "../src/main.ts": {
