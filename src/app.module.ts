@@ -14,9 +14,14 @@ import { AppGateway } from './app.gateway';
 import { MulterModule } from '@nestjs/platform-express';
 import { ScoreModule } from './score/score.module';
 import { Score } from './score/entities/score.entity';
+import { join } from 'path';
+import { ServeStaticModule } from '@nestjs/serve-static';
 
 @Module({
   imports: [
+    ServeStaticModule.forRoot({
+      rootPath: join(__dirname, '..','angular','dist','gameproj'),
+    }),
     UsersModule,
      DatabaseModule, 
      AuthModule,
