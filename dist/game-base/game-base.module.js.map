@@ -1,1 +1,0 @@
-{"version":3,"file":"game-base.module.js","sourceRoot":"","sources":["../../src/game-base/game-base.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAwC;AACxC,2DAAsD;AACtD,iEAA4D;AAM5D,IAAa,cAAc,GAA3B,MAAa,cAAc;CAAG,CAAA;AAAjB,cAAc;IAJ1B,eAAM,CAAC;QACN,WAAW,EAAE,CAAC,yCAAkB,CAAC;QACjC,SAAS,EAAE,CAAC,mCAAe,CAAC;KAC7B,CAAC;GACW,cAAc,CAAG;AAAjB,wCAAc"}
