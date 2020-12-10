@@ -20,7 +20,7 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname,'angular','dist','gameproj'),
+      rootPath: join(__dirname,'..','..','angular','dist','gameproj'),
     }),
     UsersModule,
      DatabaseModule, 
@@ -52,7 +52,7 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 })
 export class AppModule {
   constructor(){
-      console.log(join(__dirname,'angular','dist','gameproj'));
+      console.log(join(__dirname,'..','..','angular','dist','gameproj'));
       
   }
 }
