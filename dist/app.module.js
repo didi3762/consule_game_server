@@ -28,7 +28,7 @@ const path_1 = require("path");
 const serve_static_1 = require("@nestjs/serve-static");
 let AppModule = class AppModule {
     constructor() {
-        console.log(path_1.join(__dirname, '..', 'angular', 'dist', 'gameproj'));
+        console.log(process.env.DATABASE_URL);
     }
 };
 AppModule = __decorate([

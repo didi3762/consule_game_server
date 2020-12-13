@@ -52,6 +52,25 @@ export class AppGateway implements OnGatewayInit, OnGatewayConnection, OnGateway
    client.emit('joinedRoom',room)
  }
 
+ @SubscribeMessage('invite_frinde')
+ handleInviteFrinde(client: Socket, frinders: { host:string , guest:string}): void {
+   console.log('invite_frinde',frinders);
+   this.server.to(frinders.guest).emit('invite_to_frinde', frinders.host);
+ }
+
+ @SubscribeMessage('conf_frinde')
+ handleConfFrinde(client: Socket, message: { host:string ,  conf:boolean}): void {
+   console.log('conf_frinde',message);
+   this.server.to(message.host).emit('conf_to_frinde', message.conf);
+ }
+
+ @SubscribeMessage('join_room_tow')
+ handlejoinFrinde(client: Socket, message: { host:string ,  guest:string , room:string}): void {
+   console.log('join_room_tow',message);
+   client.join(message.room);
+   client.emit('joined_tow_frindes',message.room)
+ }
+
  @SubscribeMessage('leaveRoom')
  hanleLeaveRoom(client: Socket, room: string): void {
    console.log('leaveRoom');

@@ -52,7 +52,7 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 })
 export class AppModule {
   constructor(){
-      console.log(join(__dirname,'..','angular','dist','gameproj'));
+      console.log(process.env.DATABASE_URL);
       
   }
 }

@@ -18,6 +18,19 @@ export declare class AppGateway implements OnGatewayInit, OnGatewayConnection, O
         message: string;
     }): void;
     handlejoinRoom(client: Socket, room: string): void;
+    handleInviteFrinde(client: Socket, frinders: {
+        host: string;
+        guest: string;
+    }): void;
+    handleConfFrinde(client: Socket, message: {
+        host: string;
+        conf: boolean;
+    }): void;
+    handlejoinFrinde(client: Socket, message: {
+        host: string;
+        guest: string;
+        room: string;
+    }): void;
     hanleLeaveRoom(client: Socket, room: string): void;
     afterInit(server: Server): void;
     handleDisconnect(client: Socket): void;

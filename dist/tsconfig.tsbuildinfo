@@ -949,178 +949,6 @@
         "version": "30aa7c74e40b113f041f652fd32500d7a0f2e59fdcf6a9ba5331f6c31ecdc7e7",
         "signature": "f9223842d8194dca72ebb7bccca25161a870b45e8926fd4f3bee15696e5a4492"
       },
-      "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts": {
-        "version": "ca248f650c19abc031e2aaafa41fceb524378b1a2249905b44d1c8e4148fcb52",
-        "signature": "ca248f650c19abc031e2aaafa41fceb524378b1a2249905b44d1c8e4148fcb52"
-      },
-      "../node_modules/@nestjs/core/metadata-scanner.d.ts": {
-        "version": "7cb9b6d5c1e3508fbc81e7bbab314eac54715f9326ac72fd0eb65f17a4393d50",
-        "signature": "7cb9b6d5c1e3508fbc81e7bbab314eac54715f9326ac72fd0eb65f17a4393d50"
-      },
-      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts": {
-        "version": "e3d221660c0b79a9a3ba1111b3dfbb1136c0b52d7609b0054d3ce09ce711a3e6",
-        "signature": "e3d221660c0b79a9a3ba1111b3dfbb1136c0b52d7609b0054d3ce09ce711a3e6"
-      },
-      "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
-        "version": "748dc5e30576ac07af1121893bb1beaafb0d7d0000142b69fae2b2995fc7f7f4",
-        "signature": "748dc5e30576ac07af1121893bb1beaafb0d7d0000142b69fae2b2995fc7f7f4"
-      },
-      "../node_modules/@nestjs/core/adapters/index.d.ts": {
-        "version": "8b0b6a4c032a56d5651f7dd02ba3f05fbfe4131c4095093633cda3cae0991972",
-        "signature": "8b0b6a4c032a56d5651f7dd02ba3f05fbfe4131c4095093633cda3cae0991972"
-      },
-      "../node_modules/@nestjs/core/injector/module-token-factory.d.ts": {
-        "version": "27484cb3aa328bc5d0957fcb34df68a5db1be280af510d9ed3a282b1a0a93b38",
-        "signature": "27484cb3aa328bc5d0957fcb34df68a5db1be280af510d9ed3a282b1a0a93b38"
-      },
-      "../node_modules/@nestjs/core/injector/modules-container.d.ts": {
-        "version": "c1c60dd235d2ce756231cec4bfec763980de6913efcfc3fb459938fee9ea26a5",
-        "signature": "c1c60dd235d2ce756231cec4bfec763980de6913efcfc3fb459938fee9ea26a5"
-      },
-      "../node_modules/@nestjs/core/injector/container.d.ts": {
-        "version": "67bdd2a7bdda53477e3342d4d28e0426afcc9232018c81b801b4423fd6ba4cf5",
-        "signature": "67bdd2a7bdda53477e3342d4d28e0426afcc9232018c81b801b4423fd6ba4cf5"
-      },
-      "../node_modules/@nestjs/core/injector/module-ref.d.ts": {
-        "version": "9473e83a3ccd24983ca2bc517ad41d81542f5a8215288be71bcd73655ee5ace0",
-        "signature": "9473e83a3ccd24983ca2bc517ad41d81542f5a8215288be71bcd73655ee5ace0"
-      },
-      "../node_modules/@nestjs/core/injector/module.d.ts": {
-        "version": "56c3861bbf4c47c5490585fd601d412b371836edc4df1bf1fa8ef511ee49f981",
-        "signature": "56c3861bbf4c47c5490585fd601d412b371836edc4df1bf1fa8ef511ee49f981"
-      },
-      "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts": {
-        "version": "841487542d9a8f579ba6f644f754c5b90ed872a345d2a3fa4b08077db03e7027",
-        "signature": "841487542d9a8f579ba6f644f754c5b90ed872a345d2a3fa4b08077db03e7027"
-      },
-      "../node_modules/@nestjs/core/application-config.d.ts": {
-        "version": "620eaa2096c69dff36875f086e8a63c326fccda643360b7d7cd580b403753488",
-        "signature": "620eaa2096c69dff36875f086e8a63c326fccda643360b7d7cd580b403753488"
-      },
-      "../node_modules/@nestjs/core/constants.d.ts": {
-        "version": "f23601713615719b1a1394deae884fb9f507de819a086d5a019c63793da9efc6",
-        "signature": "f23601713615719b1a1394deae884fb9f507de819a086d5a019c63793da9efc6"
-      },
-      "../node_modules/@nestjs/core/discovery/discovery-module.d.ts": {
-        "version": "50fd11b764194f06977c162c37e5a70bcf0d3579bf82dd4de4eee3ac68d0f82f",
-        "signature": "50fd11b764194f06977c162c37e5a70bcf0d3579bf82dd4de4eee3ac68d0f82f"
-      },
-      "../node_modules/@nestjs/core/discovery/discovery-service.d.ts": {
-        "version": "ad5ad568f2f537a43dcc1588b2379f9dc79539ae36b8821b13a5d03625211eb2",
-        "signature": "ad5ad568f2f537a43dcc1588b2379f9dc79539ae36b8821b13a5d03625211eb2"
-      },
-      "../node_modules/@nestjs/core/discovery/index.d.ts": {
-        "version": "99579aa074ed298e7a3d6a47e68f0cd099e92411212d5081ce88344a5b1b528d",
-        "signature": "99579aa074ed298e7a3d6a47e68f0cd099e92411212d5081ce88344a5b1b528d"
-      },
-      "../node_modules/@nestjs/core/helpers/context-id-factory.d.ts": {
-        "version": "a4d05f346ba48f5685f9142fdd90b1e12e463535c38bdea74fce64813f2a8661",
-        "signature": "a4d05f346ba48f5685f9142fdd90b1e12e463535c38bdea74fce64813f2a8661"
-      },
-      "../node_modules/@nestjs/core/helpers/http-adapter-host.d.ts": {
-        "version": "d2d58166965f631fa203f405f3713b0f86f1f8b80755e9daea43057a25311e16",
-        "signature": "d2d58166965f631fa203f405f3713b0f86f1f8b80755e9daea43057a25311e16"
-      },
-      "../node_modules/@nestjs/core/helpers/index.d.ts": {
-        "version": "0256d60785ede7860b5262f504f139aa68f74db44ba9f03807b752864580772c",
-        "signature": "0256d60785ede7860b5262f504f139aa68f74db44ba9f03807b752864580772c"
-      },
-      "../node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts": {
-        "version": "e4fc4090c3687640d033fd75585ccb54dcdf3bf406338228df50b0dcee0314d0",
-        "signature": "e4fc4090c3687640d033fd75585ccb54dcdf3bf406338228df50b0dcee0314d0"
-      },
-      "../node_modules/@nestjs/core/exceptions/index.d.ts": {
-        "version": "942ab34f62ac3f3d20014615b6442b6dc51815e30a878ebc390dd70e0dec63bf",
-        "signature": "942ab34f62ac3f3d20014615b6442b6dc51815e30a878ebc390dd70e0dec63bf"
-      },
-      "../node_modules/@nestjs/core/injector/inquirer/inquirer-constants.d.ts": {
-        "version": "396c1e5a39706999ec8cc582916e05fcb4f901631d2c192c1292e95089a494d9",
-        "signature": "396c1e5a39706999ec8cc582916e05fcb4f901631d2c192c1292e95089a494d9"
-      },
-      "../node_modules/@nestjs/core/injector/inquirer/index.d.ts": {
-        "version": "89df75d28f34fc698fe261f9489125b4e5828fbd62d863bbe93373d3ed995056",
-        "signature": "89df75d28f34fc698fe261f9489125b4e5828fbd62d863bbe93373d3ed995056"
-      },
-      "../node_modules/@nestjs/core/injector/index.d.ts": {
-        "version": "e99e3ad9035927f61b1d6b54c51fca01e46bdcaf861fd9484086d871e76d0aef",
-        "signature": "e99e3ad9035927f61b1d6b54c51fca01e46bdcaf861fd9484086d871e76d0aef"
-      },
-      "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts": {
-        "version": "5175a0f207a73df7426acc2bdc854b0c4bfab7434742f873816f0fc71f4fa2f5",
-        "signature": "5175a0f207a73df7426acc2bdc854b0c4bfab7434742f873816f0fc71f4fa2f5"
-      },
-      "../node_modules/@nestjs/core/middleware/builder.d.ts": {
-        "version": "9daabcf8cac2bd41d4cb83511c0358fc24650fd08f9ae73e888582285a116a3f",
-        "signature": "9daabcf8cac2bd41d4cb83511c0358fc24650fd08f9ae73e888582285a116a3f"
-      },
-      "../node_modules/@nestjs/core/middleware/index.d.ts": {
-        "version": "82d3e00d56a71fc169f3cf9ec5f5ffcc92f6c0e67d4dfc130dafe9f1886d5515",
-        "signature": "82d3e00d56a71fc169f3cf9ec5f5ffcc92f6c0e67d4dfc130dafe9f1886d5515"
-      },
-      "../node_modules/@nestjs/core/injector/injector.d.ts": {
-        "version": "277c4deaebf4165aaf2ee4ac703cc38ec75c01905e0bbff8fa169fc5978b9379",
-        "signature": "277c4deaebf4165aaf2ee4ac703cc38ec75c01905e0bbff8fa169fc5978b9379"
-      },
-      "../node_modules/@nestjs/core/nest-application-context.d.ts": {
-        "version": "45624261d218f1433d96f2446ae28e3691ed0e0ac3e3db55f6081cd999c37b37",
-        "signature": "45624261d218f1433d96f2446ae28e3691ed0e0ac3e3db55f6081cd999c37b37"
-      },
-      "../node_modules/@nestjs/core/nest-application.d.ts": {
-        "version": "398ee5590d2e022f7c00f0c1f049db902cd8c7a2bf9bfacac5bef35cc8977aa7",
-        "signature": "398ee5590d2e022f7c00f0c1f049db902cd8c7a2bf9bfacac5bef35cc8977aa7"
-      },
-      "../node_modules/@nestjs/core/nest-factory.d.ts": {
-        "version": "8dcb9206a5ff25c0d64ddc39611814296851d3be1a24e20c13efc205a35e7ec5",
-        "signature": "8dcb9206a5ff25c0d64ddc39611814296851d3be1a24e20c13efc205a35e7ec5"
-      },
-      "../node_modules/@nestjs/core/router/request/request-constants.d.ts": {
-        "version": "e47adc2176f43c617c0ab47f2d9b2bb1706d9e0669bf349a30c3fe09ddd63261",
-        "signature": "e47adc2176f43c617c0ab47f2d9b2bb1706d9e0669bf349a30c3fe09ddd63261"
-      },
-      "../node_modules/@nestjs/core/router/request/index.d.ts": {
-        "version": "7fec79dfd7319fec7456b1b53134edb54c411ba493a0aef350eee75a4f223eeb",
-        "signature": "7fec79dfd7319fec7456b1b53134edb54c411ba493a0aef350eee75a4f223eeb"
-      },
-      "../node_modules/@nestjs/core/router/index.d.ts": {
-        "version": "c6d07008f2a83d1294adf9fb18b9fe6c0e01964a66263c5a827d7ff0d0cd7abd",
-        "signature": "c6d07008f2a83d1294adf9fb18b9fe6c0e01964a66263c5a827d7ff0d0cd7abd"
-      },
-      "../node_modules/@nestjs/core/services/reflector.service.d.ts": {
-        "version": "abdc0a8843b28c3cafbefb90079690b17b7b4e2a9c9bbf2cd8762e11a3958034",
-        "signature": "abdc0a8843b28c3cafbefb90079690b17b7b4e2a9c9bbf2cd8762e11a3958034"
-      },
-      "../node_modules/@nestjs/core/services/index.d.ts": {
-        "version": "2e252235037a2cd8feebfbf74aa460f783e5d423895d13f29a934d7655a1f8be",
-        "signature": "2e252235037a2cd8feebfbf74aa460f783e5d423895d13f29a934d7655a1f8be"
-      },
-      "../node_modules/@nestjs/core/index.d.ts": {
-        "version": "7b5ed961a0e03965299591d73de8b8c41e8a68105ff4fc07a240b0dfb94a5a3d",
-        "signature": "7b5ed961a0e03965299591d73de8b8c41e8a68105ff4fc07a240b0dfb94a5a3d"
-      },
-      "../node_modules/@nestjs/testing/testing-module.d.ts": {
-        "version": "1cb85d69d6e68b4fcb46c6e121781e417f5784c1c0bd919a9cc4a00c6243c582",
-        "signature": "1cb85d69d6e68b4fcb46c6e121781e417f5784c1c0bd919a9cc4a00c6243c582"
-      },
-      "../node_modules/@nestjs/testing/testing-module.builder.d.ts": {
-        "version": "ba8cf606aee66bd27748f6b51776ebc6117f8abdaee40052e890e697baff8e0b",
-        "signature": "ba8cf606aee66bd27748f6b51776ebc6117f8abdaee40052e890e697baff8e0b"
-      },
-      "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": {
-        "version": "9388b0ffb5ab94e23e0165a96985091a133e3632e5f92fd72b14df7d73b3804d",
-        "signature": "9388b0ffb5ab94e23e0165a96985091a133e3632e5f92fd72b14df7d73b3804d"
-      },
-      "../node_modules/@nestjs/testing/interfaces/index.d.ts": {
-        "version": "a397d00d0454ddb1cae255c19bde344f78b8b93512cff09b98b7e148d889b6e6",
-        "signature": "a397d00d0454ddb1cae255c19bde344f78b8b93512cff09b98b7e148d889b6e6"
-      },
-      "../node_modules/@nestjs/testing/test.d.ts": {
-        "version": "927c6cf84c59b3ca7fdb6d3cbc3aa986193337b6a9758994575106f6073ee737",
-        "signature": "927c6cf84c59b3ca7fdb6d3cbc3aa986193337b6a9758994575106f6073ee737"
-      },
-      "../node_modules/@nestjs/testing/index.d.ts": {
-        "version": "0a33b8bff876368beef794f5f08e8221103efa394f9e0e27e19f557a8cdaa0a0",
-        "signature": "0a33b8bff876368beef794f5f08e8221103efa394f9e0e27e19f557a8cdaa0a0"
-      },
       "../node_modules/@nestjs/websockets/adapters/ws-adapter.d.ts": {
         "version": "7d2eed7cce648593302069d3fabed797a0a83c05f696e9ba92b1a8df2a0cbcf9",
         "signature": "7d2eed7cce648593302069d3fabed797a0a83c05f696e9ba92b1a8df2a0cbcf9"
@@ -1204,6 +1032,10 @@
       "../node_modules/@nestjs/websockets/exceptions/index.d.ts": {
         "version": "57947d16b34a3811f854965fe668e81ccea9dd6321e412ea1a2c75d4fd2619c1",
         "signature": "57947d16b34a3811f854965fe668e81ccea9dd6321e412ea1a2c75d4fd2619c1"
+      },
+      "../node_modules/@nestjs/core/metadata-scanner.d.ts": {
+        "version": "7cb9b6d5c1e3508fbc81e7bbab314eac54715f9326ac72fd0eb65f17a4393d50",
+        "signature": "7cb9b6d5c1e3508fbc81e7bbab314eac54715f9326ac72fd0eb65f17a4393d50"
       },
       "../node_modules/@nestjs/websockets/interfaces/nest-gateway.interface.d.ts": {
         "version": "e52c9bb4a4e20ed2ed5cd0aa01d15261949691bffd4d7f5011e79bced9d14e5c",
@@ -1414,12 +1246,8 @@
         "signature": "7d666a6623022683b640930047127f754d79393a29c0f51f3447325f8435809f"
       },
       "../src/app.gateway.ts": {
-        "version": "8751a50c5c1b3aacff47fd43f5f54a29571c23b6f7c1060371f3076041ee5769",
-        "signature": "3876da18785a136e84fd6e7ae69b5a6b4f65c9fe2b49a243183d6b5fa6b1178b"
-      },
-      "../src/app.gateway.spec.ts": {
-        "version": "2ac4ec42093d00b8c6873228eb8f7a47041cf20149e6a879f10e79e2ac759c86",
-        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+        "version": "15ec662049000259a493675187a33c49ee7d3979a4e155610005e604680b1620",
+        "signature": "0c75a8e01c6b825dbadede32d930655511c8398d044e13631128883650db8048"
       },
       "../node_modules/class-validator/types/validation/validationerror.d.ts": {
         "version": "d224f2ef464cf2a544dcf6be6b416db5563aa5ca4c94e2a1d93bf3765c1f77cb",
@@ -3549,6 +3377,10 @@
         "version": "4d30a9c1bab814d0e2adbe925379dce92afdbbebacb914c0dbb8a8bc4203111b",
         "signature": "7d26e1b7e0692eb13ea7a038c2de5d9772dcfa9671eb4d215ef562a65db52013"
       },
+      "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": {
+        "version": "748dc5e30576ac07af1121893bb1beaafb0d7d0000142b69fae2b2995fc7f7f4",
+        "signature": "748dc5e30576ac07af1121893bb1beaafb0d7d0000142b69fae2b2995fc7f7f4"
+      },
       "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts": {
         "version": "b87682ddc9e2c3714ca66991cdd86ff7e18cae6fd010742a93bd612a07d19697",
         "signature": "b87682ddc9e2c3714ca66991cdd86ff7e18cae6fd010742a93bd612a07d19697"
@@ -3749,6 +3581,142 @@
         "version": "6863fd86116c9c0a880e4e6740134c8b33882b795172ea48048ba8b548a6eeb4",
         "signature": "236746fa8dcaa7f0d698aaa32692bea65dbfc6dbfda4bfb8d1bc3eb74601f2fc"
       },
+      "../node_modules/@nestjs/core/adapters/index.d.ts": {
+        "version": "8b0b6a4c032a56d5651f7dd02ba3f05fbfe4131c4095093633cda3cae0991972",
+        "signature": "8b0b6a4c032a56d5651f7dd02ba3f05fbfe4131c4095093633cda3cae0991972"
+      },
+      "../node_modules/@nestjs/core/injector/module-token-factory.d.ts": {
+        "version": "27484cb3aa328bc5d0957fcb34df68a5db1be280af510d9ed3a282b1a0a93b38",
+        "signature": "27484cb3aa328bc5d0957fcb34df68a5db1be280af510d9ed3a282b1a0a93b38"
+      },
+      "../node_modules/@nestjs/core/injector/modules-container.d.ts": {
+        "version": "c1c60dd235d2ce756231cec4bfec763980de6913efcfc3fb459938fee9ea26a5",
+        "signature": "c1c60dd235d2ce756231cec4bfec763980de6913efcfc3fb459938fee9ea26a5"
+      },
+      "../node_modules/@nestjs/core/injector/container.d.ts": {
+        "version": "67bdd2a7bdda53477e3342d4d28e0426afcc9232018c81b801b4423fd6ba4cf5",
+        "signature": "67bdd2a7bdda53477e3342d4d28e0426afcc9232018c81b801b4423fd6ba4cf5"
+      },
+      "../node_modules/@nestjs/core/injector/module-ref.d.ts": {
+        "version": "9473e83a3ccd24983ca2bc517ad41d81542f5a8215288be71bcd73655ee5ace0",
+        "signature": "9473e83a3ccd24983ca2bc517ad41d81542f5a8215288be71bcd73655ee5ace0"
+      },
+      "../node_modules/@nestjs/core/injector/module.d.ts": {
+        "version": "56c3861bbf4c47c5490585fd601d412b371836edc4df1bf1fa8ef511ee49f981",
+        "signature": "56c3861bbf4c47c5490585fd601d412b371836edc4df1bf1fa8ef511ee49f981"
+      },
+      "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts": {
+        "version": "841487542d9a8f579ba6f644f754c5b90ed872a345d2a3fa4b08077db03e7027",
+        "signature": "841487542d9a8f579ba6f644f754c5b90ed872a345d2a3fa4b08077db03e7027"
+      },
+      "../node_modules/@nestjs/core/application-config.d.ts": {
+        "version": "620eaa2096c69dff36875f086e8a63c326fccda643360b7d7cd580b403753488",
+        "signature": "620eaa2096c69dff36875f086e8a63c326fccda643360b7d7cd580b403753488"
+      },
+      "../node_modules/@nestjs/core/constants.d.ts": {
+        "version": "f23601713615719b1a1394deae884fb9f507de819a086d5a019c63793da9efc6",
+        "signature": "f23601713615719b1a1394deae884fb9f507de819a086d5a019c63793da9efc6"
+      },
+      "../node_modules/@nestjs/core/discovery/discovery-module.d.ts": {
+        "version": "50fd11b764194f06977c162c37e5a70bcf0d3579bf82dd4de4eee3ac68d0f82f",
+        "signature": "50fd11b764194f06977c162c37e5a70bcf0d3579bf82dd4de4eee3ac68d0f82f"
+      },
+      "../node_modules/@nestjs/core/discovery/discovery-service.d.ts": {
+        "version": "ad5ad568f2f537a43dcc1588b2379f9dc79539ae36b8821b13a5d03625211eb2",
+        "signature": "ad5ad568f2f537a43dcc1588b2379f9dc79539ae36b8821b13a5d03625211eb2"
+      },
+      "../node_modules/@nestjs/core/discovery/index.d.ts": {
+        "version": "99579aa074ed298e7a3d6a47e68f0cd099e92411212d5081ce88344a5b1b528d",
+        "signature": "99579aa074ed298e7a3d6a47e68f0cd099e92411212d5081ce88344a5b1b528d"
+      },
+      "../node_modules/@nestjs/core/helpers/context-id-factory.d.ts": {
+        "version": "a4d05f346ba48f5685f9142fdd90b1e12e463535c38bdea74fce64813f2a8661",
+        "signature": "a4d05f346ba48f5685f9142fdd90b1e12e463535c38bdea74fce64813f2a8661"
+      },
+      "../node_modules/@nestjs/core/helpers/http-adapter-host.d.ts": {
+        "version": "d2d58166965f631fa203f405f3713b0f86f1f8b80755e9daea43057a25311e16",
+        "signature": "d2d58166965f631fa203f405f3713b0f86f1f8b80755e9daea43057a25311e16"
+      },
+      "../node_modules/@nestjs/core/helpers/index.d.ts": {
+        "version": "0256d60785ede7860b5262f504f139aa68f74db44ba9f03807b752864580772c",
+        "signature": "0256d60785ede7860b5262f504f139aa68f74db44ba9f03807b752864580772c"
+      },
+      "../node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts": {
+        "version": "e4fc4090c3687640d033fd75585ccb54dcdf3bf406338228df50b0dcee0314d0",
+        "signature": "e4fc4090c3687640d033fd75585ccb54dcdf3bf406338228df50b0dcee0314d0"
+      },
+      "../node_modules/@nestjs/core/exceptions/index.d.ts": {
+        "version": "942ab34f62ac3f3d20014615b6442b6dc51815e30a878ebc390dd70e0dec63bf",
+        "signature": "942ab34f62ac3f3d20014615b6442b6dc51815e30a878ebc390dd70e0dec63bf"
+      },
+      "../node_modules/@nestjs/core/injector/inquirer/inquirer-constants.d.ts": {
+        "version": "396c1e5a39706999ec8cc582916e05fcb4f901631d2c192c1292e95089a494d9",
+        "signature": "396c1e5a39706999ec8cc582916e05fcb4f901631d2c192c1292e95089a494d9"
+      },
+      "../node_modules/@nestjs/core/injector/inquirer/index.d.ts": {
+        "version": "89df75d28f34fc698fe261f9489125b4e5828fbd62d863bbe93373d3ed995056",
+        "signature": "89df75d28f34fc698fe261f9489125b4e5828fbd62d863bbe93373d3ed995056"
+      },
+      "../node_modules/@nestjs/core/injector/index.d.ts": {
+        "version": "e99e3ad9035927f61b1d6b54c51fca01e46bdcaf861fd9484086d871e76d0aef",
+        "signature": "e99e3ad9035927f61b1d6b54c51fca01e46bdcaf861fd9484086d871e76d0aef"
+      },
+      "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts": {
+        "version": "5175a0f207a73df7426acc2bdc854b0c4bfab7434742f873816f0fc71f4fa2f5",
+        "signature": "5175a0f207a73df7426acc2bdc854b0c4bfab7434742f873816f0fc71f4fa2f5"
+      },
+      "../node_modules/@nestjs/core/middleware/builder.d.ts": {
+        "version": "9daabcf8cac2bd41d4cb83511c0358fc24650fd08f9ae73e888582285a116a3f",
+        "signature": "9daabcf8cac2bd41d4cb83511c0358fc24650fd08f9ae73e888582285a116a3f"
+      },
+      "../node_modules/@nestjs/core/middleware/index.d.ts": {
+        "version": "82d3e00d56a71fc169f3cf9ec5f5ffcc92f6c0e67d4dfc130dafe9f1886d5515",
+        "signature": "82d3e00d56a71fc169f3cf9ec5f5ffcc92f6c0e67d4dfc130dafe9f1886d5515"
+      },
+      "../node_modules/@nestjs/core/injector/injector.d.ts": {
+        "version": "277c4deaebf4165aaf2ee4ac703cc38ec75c01905e0bbff8fa169fc5978b9379",
+        "signature": "277c4deaebf4165aaf2ee4ac703cc38ec75c01905e0bbff8fa169fc5978b9379"
+      },
+      "../node_modules/@nestjs/core/nest-application-context.d.ts": {
+        "version": "45624261d218f1433d96f2446ae28e3691ed0e0ac3e3db55f6081cd999c37b37",
+        "signature": "45624261d218f1433d96f2446ae28e3691ed0e0ac3e3db55f6081cd999c37b37"
+      },
+      "../node_modules/@nestjs/core/nest-application.d.ts": {
+        "version": "398ee5590d2e022f7c00f0c1f049db902cd8c7a2bf9bfacac5bef35cc8977aa7",
+        "signature": "398ee5590d2e022f7c00f0c1f049db902cd8c7a2bf9bfacac5bef35cc8977aa7"
+      },
+      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts": {
+        "version": "e3d221660c0b79a9a3ba1111b3dfbb1136c0b52d7609b0054d3ce09ce711a3e6",
+        "signature": "e3d221660c0b79a9a3ba1111b3dfbb1136c0b52d7609b0054d3ce09ce711a3e6"
+      },
+      "../node_modules/@nestjs/core/nest-factory.d.ts": {
+        "version": "8dcb9206a5ff25c0d64ddc39611814296851d3be1a24e20c13efc205a35e7ec5",
+        "signature": "8dcb9206a5ff25c0d64ddc39611814296851d3be1a24e20c13efc205a35e7ec5"
+      },
+      "../node_modules/@nestjs/core/router/request/request-constants.d.ts": {
+        "version": "e47adc2176f43c617c0ab47f2d9b2bb1706d9e0669bf349a30c3fe09ddd63261",
+        "signature": "e47adc2176f43c617c0ab47f2d9b2bb1706d9e0669bf349a30c3fe09ddd63261"
+      },
+      "../node_modules/@nestjs/core/router/request/index.d.ts": {
+        "version": "7fec79dfd7319fec7456b1b53134edb54c411ba493a0aef350eee75a4f223eeb",
+        "signature": "7fec79dfd7319fec7456b1b53134edb54c411ba493a0aef350eee75a4f223eeb"
+      },
+      "../node_modules/@nestjs/core/router/index.d.ts": {
+        "version": "c6d07008f2a83d1294adf9fb18b9fe6c0e01964a66263c5a827d7ff0d0cd7abd",
+        "signature": "c6d07008f2a83d1294adf9fb18b9fe6c0e01964a66263c5a827d7ff0d0cd7abd"
+      },
+      "../node_modules/@nestjs/core/services/reflector.service.d.ts": {
+        "version": "abdc0a8843b28c3cafbefb90079690b17b7b4e2a9c9bbf2cd8762e11a3958034",
+        "signature": "abdc0a8843b28c3cafbefb90079690b17b7b4e2a9c9bbf2cd8762e11a3958034"
+      },
+      "../node_modules/@nestjs/core/services/index.d.ts": {
+        "version": "2e252235037a2cd8feebfbf74aa460f783e5d423895d13f29a934d7655a1f8be",
+        "signature": "2e252235037a2cd8feebfbf74aa460f783e5d423895d13f29a934d7655a1f8be"
+      },
+      "../node_modules/@nestjs/core/index.d.ts": {
+        "version": "7b5ed961a0e03965299591d73de8b8c41e8a68105ff4fc07a240b0dfb94a5a3d",
+        "signature": "7b5ed961a0e03965299591d73de8b8c41e8a68105ff4fc07a240b0dfb94a5a3d"
+      },
       "../src/games/role.guard.ts": {
         "version": "2c11bf3e37a93b0d75681d77b75a3ecd6519590c4dda09f73d01cf277c84863d",
         "signature": "636b2455635362baa2da64268ef8ad578b3aecec9680a9cf428e97be812294f4"
@@ -3834,12 +3802,40 @@
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
       "../src/app.module.ts": {
-        "version": "3ed05133512f1793dddb347a363f04c2a5756882f33c5491a27546480795fc76",
+        "version": "7e0e1c15b05741c882df90e872664284e75d53bd2e201c6f318f99aeabc57332",
         "signature": "921db1cd2917ed9d0331106b2a6df73f52f1af1b240723b5e17b6dbc95094a0a"
       },
       "../src/main.ts": {
         "version": "b5cf52c73e6c91a4004768f17dea3e79383df3c10f72678c057a5b23c56e642a",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts": {
+        "version": "ca248f650c19abc031e2aaafa41fceb524378b1a2249905b44d1c8e4148fcb52",
+        "signature": "ca248f650c19abc031e2aaafa41fceb524378b1a2249905b44d1c8e4148fcb52"
+      },
+      "../node_modules/@nestjs/testing/testing-module.d.ts": {
+        "version": "1cb85d69d6e68b4fcb46c6e121781e417f5784c1c0bd919a9cc4a00c6243c582",
+        "signature": "1cb85d69d6e68b4fcb46c6e121781e417f5784c1c0bd919a9cc4a00c6243c582"
+      },
+      "../node_modules/@nestjs/testing/testing-module.builder.d.ts": {
+        "version": "ba8cf606aee66bd27748f6b51776ebc6117f8abdaee40052e890e697baff8e0b",
+        "signature": "ba8cf606aee66bd27748f6b51776ebc6117f8abdaee40052e890e697baff8e0b"
+      },
+      "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": {
+        "version": "9388b0ffb5ab94e23e0165a96985091a133e3632e5f92fd72b14df7d73b3804d",
+        "signature": "9388b0ffb5ab94e23e0165a96985091a133e3632e5f92fd72b14df7d73b3804d"
+      },
+      "../node_modules/@nestjs/testing/interfaces/index.d.ts": {
+        "version": "a397d00d0454ddb1cae255c19bde344f78b8b93512cff09b98b7e148d889b6e6",
+        "signature": "a397d00d0454ddb1cae255c19bde344f78b8b93512cff09b98b7e148d889b6e6"
+      },
+      "../node_modules/@nestjs/testing/test.d.ts": {
+        "version": "927c6cf84c59b3ca7fdb6d3cbc3aa986193337b6a9758994575106f6073ee737",
+        "signature": "927c6cf84c59b3ca7fdb6d3cbc3aa986193337b6a9758994575106f6073ee737"
+      },
+      "../node_modules/@nestjs/testing/index.d.ts": {
+        "version": "0a33b8bff876368beef794f5f08e8221103efa394f9e0e27e19f557a8cdaa0a0",
+        "signature": "0a33b8bff876368beef794f5f08e8221103efa394f9e0e27e19f557a8cdaa0a0"
       },
       "../src/auth/auth.controller.spec.ts": {
         "version": "6bfacf20b248c6248f69ee68f1f41571095ae50374413c6d924c7a62b37b7441",
@@ -4870,203 +4866,6 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/app.service.ts"
       ],
-      "../node_modules/@nestjs/core/metadata-scanner.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/core/adapters/index.d.ts": [
-        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/module-token-factory.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/modules-container.d.ts": [
-        "../node_modules/@nestjs/core/injector/module.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/container.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
-        "../node_modules/@nestjs/core/application-config.d.ts",
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts",
-        "../node_modules/@nestjs/core/injector/module-token-factory.d.ts",
-        "../node_modules/@nestjs/core/injector/modules-container.d.ts",
-        "../node_modules/@nestjs/core/index.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/module-ref.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/core/injector/container.d.ts",
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/module.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
-        "../node_modules/@nestjs/core/injector/container.d.ts",
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-        "../node_modules/@nestjs/core/injector/module-ref.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts"
-      ],
-      "../node_modules/@nestjs/core/application-config.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts"
-      ],
-      "../node_modules/@nestjs/core/discovery/discovery-service.d.ts": [
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts",
-        "../node_modules/@nestjs/core/injector/modules-container.d.ts"
-      ],
-      "../node_modules/@nestjs/core/discovery/index.d.ts": [
-        "../node_modules/@nestjs/core/discovery/discovery-module.d.ts",
-        "../node_modules/@nestjs/core/discovery/discovery-service.d.ts"
-      ],
-      "../node_modules/@nestjs/core/helpers/context-id-factory.d.ts": [
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts"
-      ],
-      "../node_modules/@nestjs/core/helpers/http-adapter-host.d.ts": [
-        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts"
-      ],
-      "../node_modules/@nestjs/core/helpers/index.d.ts": [
-        "../node_modules/@nestjs/core/helpers/context-id-factory.d.ts",
-        "../node_modules/@nestjs/core/helpers/http-adapter-host.d.ts"
-      ],
-      "../node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/core/adapters/index.d.ts",
-        "../node_modules/@nestjs/core/helpers/index.d.ts"
-      ],
-      "../node_modules/@nestjs/core/exceptions/index.d.ts": [
-        "../node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/inquirer/index.d.ts": [
-        "../node_modules/@nestjs/core/injector/inquirer/inquirer-constants.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/index.d.ts": [
-        "../node_modules/@nestjs/core/injector/container.d.ts",
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-        "../node_modules/@nestjs/core/injector/module-ref.d.ts",
-        "../node_modules/@nestjs/core/injector/modules-container.d.ts",
-        "../node_modules/@nestjs/core/injector/inquirer/index.d.ts"
-      ],
-      "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/index.d.ts",
-        "../node_modules/@nestjs/core/injector/container.d.ts"
-      ],
-      "../node_modules/@nestjs/core/middleware/builder.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/middleware/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/middleware/middleware-configuration.interface.d.ts",
-        "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts"
-      ],
-      "../node_modules/@nestjs/core/middleware/index.d.ts": [
-        "../node_modules/@nestjs/core/middleware/builder.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/injector.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/controllers/controller.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts"
-      ],
-      "../node_modules/@nestjs/core/nest-application-context.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
-        "../node_modules/@nestjs/core/injector/index.d.ts",
-        "../node_modules/@nestjs/core/injector/container.d.ts",
-        "../node_modules/@nestjs/core/injector/injector.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts"
-      ],
-      "../node_modules/@nestjs/core/nest-application.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
-        "../node_modules/@nestjs/core/adapters/index.d.ts",
-        "../node_modules/@nestjs/core/application-config.d.ts",
-        "../node_modules/@nestjs/core/injector/container.d.ts",
-        "../node_modules/@nestjs/core/nest-application-context.d.ts"
-      ],
-      "../node_modules/@nestjs/core/nest-factory.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
-        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts"
-      ],
-      "../node_modules/@nestjs/core/router/request/index.d.ts": [
-        "../node_modules/@nestjs/core/router/request/request-constants.d.ts"
-      ],
-      "../node_modules/@nestjs/core/router/index.d.ts": [
-        "../node_modules/@nestjs/core/router/request/index.d.ts"
-      ],
-      "../node_modules/@nestjs/core/services/reflector.service.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
-      ],
-      "../node_modules/@nestjs/core/services/index.d.ts": [
-        "../node_modules/@nestjs/core/services/reflector.service.d.ts"
-      ],
-      "../node_modules/@nestjs/core/index.d.ts": [
-        "../node_modules/reflect-metadata/index.d.ts",
-        "../node_modules/@nestjs/core/adapters/index.d.ts",
-        "../node_modules/@nestjs/core/application-config.d.ts",
-        "../node_modules/@nestjs/core/constants.d.ts",
-        "../node_modules/@nestjs/core/discovery/index.d.ts",
-        "../node_modules/@nestjs/core/exceptions/index.d.ts",
-        "../node_modules/@nestjs/core/helpers/index.d.ts",
-        "../node_modules/@nestjs/core/injector/index.d.ts",
-        "../node_modules/@nestjs/core/metadata-scanner.d.ts",
-        "../node_modules/@nestjs/core/middleware/index.d.ts",
-        "../node_modules/@nestjs/core/nest-application.d.ts",
-        "../node_modules/@nestjs/core/nest-application-context.d.ts",
-        "../node_modules/@nestjs/core/nest-factory.d.ts",
-        "../node_modules/@nestjs/core/router/index.d.ts",
-        "../node_modules/@nestjs/core/services/index.d.ts"
-      ],
-      "../node_modules/@nestjs/testing/testing-module.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
-        "../node_modules/@nestjs/core/index.d.ts",
-        "../node_modules/@nestjs/core/application-config.d.ts",
-        "../node_modules/@nestjs/core/injector/container.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts"
-      ],
-      "../node_modules/@nestjs/testing/testing-module.builder.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/index.d.ts",
-        "../node_modules/@nestjs/core/metadata-scanner.d.ts",
-        "../node_modules/@nestjs/testing/interfaces/index.d.ts",
-        "../node_modules/@nestjs/testing/testing-module.d.ts"
-      ],
-      "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": [
-        "../node_modules/@nestjs/testing/testing-module.builder.d.ts",
-        "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/testing/interfaces/index.d.ts": [
-        "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
-        "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/testing/test.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
-        "../node_modules/@nestjs/testing/testing-module.builder.d.ts"
-      ],
-      "../node_modules/@nestjs/testing/index.d.ts": [
-        "../node_modules/@nestjs/testing/interfaces/index.d.ts",
-        "../node_modules/@nestjs/testing/test.d.ts",
-        "../node_modules/@nestjs/testing/testing-module.d.ts",
-        "../node_modules/@nestjs/testing/testing-module.builder.d.ts"
-      ],
       "../node_modules/@nestjs/websockets/adapters/ws-adapter.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/common/interfaces/index.d.ts",
@@ -5111,6 +4910,9 @@
       ],
       "../node_modules/@nestjs/websockets/exceptions/index.d.ts": [
         "../node_modules/@nestjs/websockets/exceptions/base-ws-exception-filter.d.ts"
+      ],
+      "../node_modules/@nestjs/core/metadata-scanner.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts"
       ],
       "../node_modules/@nestjs/websockets/gateway-metadata-explorer.d.ts": [
         "../node_modules/@nestjs/core/metadata-scanner.d.ts",
@@ -5310,10 +5112,6 @@
         "../node_modules/@nestjs/websockets/index.d.ts",
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@types/socket.io/index.d.ts"
-      ],
-      "../src/app.gateway.spec.ts": [
-        "../node_modules/@nestjs/testing/index.d.ts",
-        "../src/app.gateway.ts"
       ],
       "../node_modules/class-validator/types/decorator/validationoptions.d.ts": [
         "../node_modules/class-validator/types/validation/validationarguments.d.ts"
@@ -7572,6 +7370,12 @@
         "../src/app.gateway.ts",
         "../src/games/games.service.ts"
       ],
+      "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts"
+      ],
       "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
@@ -7769,6 +7573,162 @@
         "../node_modules/@nestjs/common/index.d.ts",
         "../src/games/role.enum.ts"
       ],
+      "../node_modules/@nestjs/core/adapters/index.d.ts": [
+        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/module-token-factory.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/modules-container.d.ts": [
+        "../node_modules/@nestjs/core/injector/module.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/container.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
+        "../node_modules/@nestjs/core/application-config.d.ts",
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts",
+        "../node_modules/@nestjs/core/injector/module-token-factory.d.ts",
+        "../node_modules/@nestjs/core/injector/modules-container.d.ts",
+        "../node_modules/@nestjs/core/index.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/module-ref.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/module.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+        "../node_modules/@nestjs/core/injector/module-ref.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts"
+      ],
+      "../node_modules/@nestjs/core/application-config.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts"
+      ],
+      "../node_modules/@nestjs/core/discovery/discovery-service.d.ts": [
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts",
+        "../node_modules/@nestjs/core/injector/modules-container.d.ts"
+      ],
+      "../node_modules/@nestjs/core/discovery/index.d.ts": [
+        "../node_modules/@nestjs/core/discovery/discovery-module.d.ts",
+        "../node_modules/@nestjs/core/discovery/discovery-service.d.ts"
+      ],
+      "../node_modules/@nestjs/core/helpers/context-id-factory.d.ts": [
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts"
+      ],
+      "../node_modules/@nestjs/core/helpers/http-adapter-host.d.ts": [
+        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts"
+      ],
+      "../node_modules/@nestjs/core/helpers/index.d.ts": [
+        "../node_modules/@nestjs/core/helpers/context-id-factory.d.ts",
+        "../node_modules/@nestjs/core/helpers/http-adapter-host.d.ts"
+      ],
+      "../node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/core/adapters/index.d.ts",
+        "../node_modules/@nestjs/core/helpers/index.d.ts"
+      ],
+      "../node_modules/@nestjs/core/exceptions/index.d.ts": [
+        "../node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/inquirer/index.d.ts": [
+        "../node_modules/@nestjs/core/injector/inquirer/inquirer-constants.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/index.d.ts": [
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+        "../node_modules/@nestjs/core/injector/module-ref.d.ts",
+        "../node_modules/@nestjs/core/injector/modules-container.d.ts",
+        "../node_modules/@nestjs/core/injector/inquirer/index.d.ts"
+      ],
+      "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts"
+      ],
+      "../node_modules/@nestjs/core/middleware/builder.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/middleware/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/middleware/middleware-configuration.interface.d.ts",
+        "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts"
+      ],
+      "../node_modules/@nestjs/core/middleware/index.d.ts": [
+        "../node_modules/@nestjs/core/middleware/builder.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/injector.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/controllers/controller.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts"
+      ],
+      "../node_modules/@nestjs/core/nest-application-context.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
+        "../node_modules/@nestjs/core/injector/index.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/injector/injector.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts"
+      ],
+      "../node_modules/@nestjs/core/nest-application.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "../node_modules/@nestjs/core/adapters/index.d.ts",
+        "../node_modules/@nestjs/core/application-config.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/nest-application-context.d.ts"
+      ],
+      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/core/nest-factory.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts"
+      ],
+      "../node_modules/@nestjs/core/router/request/index.d.ts": [
+        "../node_modules/@nestjs/core/router/request/request-constants.d.ts"
+      ],
+      "../node_modules/@nestjs/core/router/index.d.ts": [
+        "../node_modules/@nestjs/core/router/request/index.d.ts"
+      ],
+      "../node_modules/@nestjs/core/services/reflector.service.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/core/services/index.d.ts": [
+        "../node_modules/@nestjs/core/services/reflector.service.d.ts"
+      ],
+      "../node_modules/@nestjs/core/index.d.ts": [
+        "../node_modules/reflect-metadata/index.d.ts",
+        "../node_modules/@nestjs/core/adapters/index.d.ts",
+        "../node_modules/@nestjs/core/application-config.d.ts",
+        "../node_modules/@nestjs/core/constants.d.ts",
+        "../node_modules/@nestjs/core/discovery/index.d.ts",
+        "../node_modules/@nestjs/core/exceptions/index.d.ts",
+        "../node_modules/@nestjs/core/helpers/index.d.ts",
+        "../node_modules/@nestjs/core/injector/index.d.ts",
+        "../node_modules/@nestjs/core/metadata-scanner.d.ts",
+        "../node_modules/@nestjs/core/middleware/index.d.ts",
+        "../node_modules/@nestjs/core/nest-application.d.ts",
+        "../node_modules/@nestjs/core/nest-application-context.d.ts",
+        "../node_modules/@nestjs/core/nest-factory.d.ts",
+        "../node_modules/@nestjs/core/router/index.d.ts",
+        "../node_modules/@nestjs/core/services/index.d.ts"
+      ],
       "../src/games/role.guard.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/core/index.d.ts",
@@ -7913,6 +7873,38 @@
         "../src/app.module.ts",
         "../node_modules/@nestjs/platform-express/index.d.ts",
         "../node_modules/@types/node/path.d.ts"
+      ],
+      "../node_modules/@nestjs/testing/testing-module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/core/application-config.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts"
+      ],
+      "../node_modules/@nestjs/testing/testing-module.builder.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/core/metadata-scanner.d.ts",
+        "../node_modules/@nestjs/testing/interfaces/index.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.d.ts"
+      ],
+      "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": [
+        "../node_modules/@nestjs/testing/testing-module.builder.d.ts",
+        "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/testing/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
+        "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/testing/test.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.builder.d.ts"
+      ],
+      "../node_modules/@nestjs/testing/index.d.ts": [
+        "../node_modules/@nestjs/testing/interfaces/index.d.ts",
+        "../node_modules/@nestjs/testing/test.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.builder.d.ts"
       ],
       "../src/auth/auth.controller.spec.ts": [
         "../node_modules/@nestjs/testing/index.d.ts",
@@ -8873,203 +8865,6 @@
       "../src/app.controller.ts": [
         "../src/app.service.ts"
       ],
-      "../node_modules/@nestjs/core/metadata-scanner.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/core/adapters/index.d.ts": [
-        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/module-token-factory.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/modules-container.d.ts": [
-        "../node_modules/@nestjs/core/injector/module.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/container.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
-        "../node_modules/@nestjs/core/application-config.d.ts",
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts",
-        "../node_modules/@nestjs/core/injector/module-token-factory.d.ts",
-        "../node_modules/@nestjs/core/injector/modules-container.d.ts",
-        "../node_modules/@nestjs/core/index.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/module-ref.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/core/injector/container.d.ts",
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/module.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
-        "../node_modules/@nestjs/core/injector/container.d.ts",
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-        "../node_modules/@nestjs/core/injector/module-ref.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts"
-      ],
-      "../node_modules/@nestjs/core/application-config.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts"
-      ],
-      "../node_modules/@nestjs/core/discovery/discovery-service.d.ts": [
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts",
-        "../node_modules/@nestjs/core/injector/modules-container.d.ts"
-      ],
-      "../node_modules/@nestjs/core/discovery/index.d.ts": [
-        "../node_modules/@nestjs/core/discovery/discovery-module.d.ts",
-        "../node_modules/@nestjs/core/discovery/discovery-service.d.ts"
-      ],
-      "../node_modules/@nestjs/core/helpers/context-id-factory.d.ts": [
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts"
-      ],
-      "../node_modules/@nestjs/core/helpers/http-adapter-host.d.ts": [
-        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts"
-      ],
-      "../node_modules/@nestjs/core/helpers/index.d.ts": [
-        "../node_modules/@nestjs/core/helpers/context-id-factory.d.ts",
-        "../node_modules/@nestjs/core/helpers/http-adapter-host.d.ts"
-      ],
-      "../node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/core/adapters/index.d.ts",
-        "../node_modules/@nestjs/core/helpers/index.d.ts"
-      ],
-      "../node_modules/@nestjs/core/exceptions/index.d.ts": [
-        "../node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/inquirer/index.d.ts": [
-        "../node_modules/@nestjs/core/injector/inquirer/inquirer-constants.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/index.d.ts": [
-        "../node_modules/@nestjs/core/injector/container.d.ts",
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-        "../node_modules/@nestjs/core/injector/module-ref.d.ts",
-        "../node_modules/@nestjs/core/injector/modules-container.d.ts",
-        "../node_modules/@nestjs/core/injector/inquirer/index.d.ts"
-      ],
-      "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/index.d.ts",
-        "../node_modules/@nestjs/core/injector/container.d.ts"
-      ],
-      "../node_modules/@nestjs/core/middleware/builder.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/middleware/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/middleware/middleware-configuration.interface.d.ts",
-        "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts"
-      ],
-      "../node_modules/@nestjs/core/middleware/index.d.ts": [
-        "../node_modules/@nestjs/core/middleware/builder.d.ts"
-      ],
-      "../node_modules/@nestjs/core/injector/injector.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/controllers/controller.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
-        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts"
-      ],
-      "../node_modules/@nestjs/core/nest-application-context.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
-        "../node_modules/@nestjs/core/injector/index.d.ts",
-        "../node_modules/@nestjs/core/injector/container.d.ts",
-        "../node_modules/@nestjs/core/injector/injector.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts"
-      ],
-      "../node_modules/@nestjs/core/nest-application.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
-        "../node_modules/@nestjs/core/adapters/index.d.ts",
-        "../node_modules/@nestjs/core/application-config.d.ts",
-        "../node_modules/@nestjs/core/injector/container.d.ts",
-        "../node_modules/@nestjs/core/nest-application-context.d.ts"
-      ],
-      "../node_modules/@nestjs/core/nest-factory.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts",
-        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
-        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts"
-      ],
-      "../node_modules/@nestjs/core/router/request/index.d.ts": [
-        "../node_modules/@nestjs/core/router/request/request-constants.d.ts"
-      ],
-      "../node_modules/@nestjs/core/router/index.d.ts": [
-        "../node_modules/@nestjs/core/router/request/index.d.ts"
-      ],
-      "../node_modules/@nestjs/core/services/reflector.service.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts"
-      ],
-      "../node_modules/@nestjs/core/services/index.d.ts": [
-        "../node_modules/@nestjs/core/services/reflector.service.d.ts"
-      ],
-      "../node_modules/@nestjs/core/index.d.ts": [
-        "../node_modules/reflect-metadata/index.d.ts",
-        "../node_modules/@nestjs/core/adapters/index.d.ts",
-        "../node_modules/@nestjs/core/application-config.d.ts",
-        "../node_modules/@nestjs/core/constants.d.ts",
-        "../node_modules/@nestjs/core/discovery/index.d.ts",
-        "../node_modules/@nestjs/core/exceptions/index.d.ts",
-        "../node_modules/@nestjs/core/helpers/index.d.ts",
-        "../node_modules/@nestjs/core/injector/index.d.ts",
-        "../node_modules/@nestjs/core/metadata-scanner.d.ts",
-        "../node_modules/@nestjs/core/middleware/index.d.ts",
-        "../node_modules/@nestjs/core/nest-application.d.ts",
-        "../node_modules/@nestjs/core/nest-application-context.d.ts",
-        "../node_modules/@nestjs/core/nest-factory.d.ts",
-        "../node_modules/@nestjs/core/router/index.d.ts",
-        "../node_modules/@nestjs/core/services/index.d.ts"
-      ],
-      "../node_modules/@nestjs/testing/testing-module.d.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
-        "../node_modules/@nestjs/core/index.d.ts",
-        "../node_modules/@nestjs/core/application-config.d.ts",
-        "../node_modules/@nestjs/core/injector/container.d.ts",
-        "../node_modules/@nestjs/core/injector/module.d.ts"
-      ],
-      "../node_modules/@nestjs/testing/testing-module.builder.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/index.d.ts",
-        "../node_modules/@nestjs/core/metadata-scanner.d.ts",
-        "../node_modules/@nestjs/testing/interfaces/index.d.ts",
-        "../node_modules/@nestjs/testing/testing-module.d.ts"
-      ],
-      "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": [
-        "../node_modules/@nestjs/testing/testing-module.builder.d.ts",
-        "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/testing/interfaces/index.d.ts": [
-        "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
-        "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts"
-      ],
-      "../node_modules/@nestjs/testing/test.d.ts": [
-        "../node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
-        "../node_modules/@nestjs/testing/testing-module.builder.d.ts"
-      ],
-      "../node_modules/@nestjs/testing/index.d.ts": [
-        "../node_modules/@nestjs/testing/interfaces/index.d.ts",
-        "../node_modules/@nestjs/testing/test.d.ts",
-        "../node_modules/@nestjs/testing/testing-module.d.ts",
-        "../node_modules/@nestjs/testing/testing-module.builder.d.ts"
-      ],
       "../node_modules/@nestjs/websockets/adapters/ws-adapter.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/common/interfaces/index.d.ts",
@@ -9114,6 +8909,9 @@
       ],
       "../node_modules/@nestjs/websockets/exceptions/index.d.ts": [
         "../node_modules/@nestjs/websockets/exceptions/base-ws-exception-filter.d.ts"
+      ],
+      "../node_modules/@nestjs/core/metadata-scanner.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts"
       ],
       "../node_modules/@nestjs/websockets/gateway-metadata-explorer.d.ts": [
         "../node_modules/@nestjs/core/metadata-scanner.d.ts",
@@ -9310,8 +9108,8 @@
         "../node_modules/@types/node/index.d.ts"
       ],
       "../src/app.gateway.ts": [
-        "../node_modules/@nestjs/websockets/index.d.ts",
-        "../node_modules/@types/socket.io/index.d.ts"
+        "../node_modules/@types/socket.io/index.d.ts",
+        "../node_modules/@nestjs/websockets/index.d.ts"
       ],
       "../node_modules/class-validator/types/decorator/validationoptions.d.ts": [
         "../node_modules/class-validator/types/validation/validationarguments.d.ts"
@@ -11549,6 +11347,12 @@
         "../src/app.gateway.ts",
         "../src/score/entities/score.entity.ts"
       ],
+      "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts"
+      ],
       "../node_modules/@nestjs/platform-express/adapters/express-adapter.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
@@ -11719,6 +11523,162 @@
       "../src/games/role.decorator.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
       ],
+      "../node_modules/@nestjs/core/adapters/index.d.ts": [
+        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/module-token-factory.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/modules-container.d.ts": [
+        "../node_modules/@nestjs/core/injector/module.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/container.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
+        "../node_modules/@nestjs/core/application-config.d.ts",
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts",
+        "../node_modules/@nestjs/core/injector/module-token-factory.d.ts",
+        "../node_modules/@nestjs/core/injector/modules-container.d.ts",
+        "../node_modules/@nestjs/core/index.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/module-ref.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/module.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+        "../node_modules/@nestjs/core/injector/module-ref.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts"
+      ],
+      "../node_modules/@nestjs/core/application-config.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts"
+      ],
+      "../node_modules/@nestjs/core/discovery/discovery-service.d.ts": [
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts",
+        "../node_modules/@nestjs/core/injector/modules-container.d.ts"
+      ],
+      "../node_modules/@nestjs/core/discovery/index.d.ts": [
+        "../node_modules/@nestjs/core/discovery/discovery-module.d.ts",
+        "../node_modules/@nestjs/core/discovery/discovery-service.d.ts"
+      ],
+      "../node_modules/@nestjs/core/helpers/context-id-factory.d.ts": [
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts"
+      ],
+      "../node_modules/@nestjs/core/helpers/http-adapter-host.d.ts": [
+        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts"
+      ],
+      "../node_modules/@nestjs/core/helpers/index.d.ts": [
+        "../node_modules/@nestjs/core/helpers/context-id-factory.d.ts",
+        "../node_modules/@nestjs/core/helpers/http-adapter-host.d.ts"
+      ],
+      "../node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/core/adapters/index.d.ts",
+        "../node_modules/@nestjs/core/helpers/index.d.ts"
+      ],
+      "../node_modules/@nestjs/core/exceptions/index.d.ts": [
+        "../node_modules/@nestjs/core/exceptions/base-exception-filter.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/inquirer/index.d.ts": [
+        "../node_modules/@nestjs/core/injector/inquirer/inquirer-constants.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/index.d.ts": [
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+        "../node_modules/@nestjs/core/injector/module-ref.d.ts",
+        "../node_modules/@nestjs/core/injector/modules-container.d.ts",
+        "../node_modules/@nestjs/core/injector/inquirer/index.d.ts"
+      ],
+      "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts"
+      ],
+      "../node_modules/@nestjs/core/middleware/builder.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/middleware/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/middleware/middleware-configuration.interface.d.ts",
+        "../node_modules/@nestjs/core/middleware/routes-mapper.d.ts"
+      ],
+      "../node_modules/@nestjs/core/middleware/index.d.ts": [
+        "../node_modules/@nestjs/core/middleware/builder.d.ts"
+      ],
+      "../node_modules/@nestjs/core/injector/injector.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/controllers/controller.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/injectable.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
+        "../node_modules/@nestjs/core/injector/instance-wrapper.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts"
+      ],
+      "../node_modules/@nestjs/core/nest-application-context.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/type.interface.d.ts",
+        "../node_modules/@nestjs/core/injector/index.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/injector/injector.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts"
+      ],
+      "../node_modules/@nestjs/core/nest-application.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/external/cors-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "../node_modules/@nestjs/core/adapters/index.d.ts",
+        "../node_modules/@nestjs/core/application-config.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/nest-application-context.d.ts"
+      ],
+      "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/core/nest-factory.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-context-options.interface.d.ts",
+        "../node_modules/@nestjs/common/interfaces/nest-application-options.interface.d.ts",
+        "../node_modules/@nestjs/core/adapters/http-adapter.d.ts"
+      ],
+      "../node_modules/@nestjs/core/router/request/index.d.ts": [
+        "../node_modules/@nestjs/core/router/request/request-constants.d.ts"
+      ],
+      "../node_modules/@nestjs/core/router/index.d.ts": [
+        "../node_modules/@nestjs/core/router/request/index.d.ts"
+      ],
+      "../node_modules/@nestjs/core/services/reflector.service.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/core/services/index.d.ts": [
+        "../node_modules/@nestjs/core/services/reflector.service.d.ts"
+      ],
+      "../node_modules/@nestjs/core/index.d.ts": [
+        "../node_modules/reflect-metadata/index.d.ts",
+        "../node_modules/@nestjs/core/adapters/index.d.ts",
+        "../node_modules/@nestjs/core/application-config.d.ts",
+        "../node_modules/@nestjs/core/constants.d.ts",
+        "../node_modules/@nestjs/core/discovery/index.d.ts",
+        "../node_modules/@nestjs/core/exceptions/index.d.ts",
+        "../node_modules/@nestjs/core/helpers/index.d.ts",
+        "../node_modules/@nestjs/core/injector/index.d.ts",
+        "../node_modules/@nestjs/core/metadata-scanner.d.ts",
+        "../node_modules/@nestjs/core/middleware/index.d.ts",
+        "../node_modules/@nestjs/core/nest-application.d.ts",
+        "../node_modules/@nestjs/core/nest-application-context.d.ts",
+        "../node_modules/@nestjs/core/nest-factory.d.ts",
+        "../node_modules/@nestjs/core/router/index.d.ts",
+        "../node_modules/@nestjs/core/services/index.d.ts"
+      ],
       "../src/games/role.guard.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/core/index.d.ts",
@@ -11789,6 +11749,38 @@
       ],
       "../node_modules/@nestjs/serve-static/index.d.ts": [
         "../node_modules/@nestjs/serve-static/dist/index.d.ts"
+      ],
+      "../node_modules/@nestjs/testing/testing-module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/common/interfaces/microservices/nest-microservice-options.interface.d.ts",
+        "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/core/application-config.d.ts",
+        "../node_modules/@nestjs/core/injector/container.d.ts",
+        "../node_modules/@nestjs/core/injector/module.d.ts"
+      ],
+      "../node_modules/@nestjs/testing/testing-module.builder.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/index.d.ts",
+        "../node_modules/@nestjs/core/metadata-scanner.d.ts",
+        "../node_modules/@nestjs/testing/interfaces/index.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.d.ts"
+      ],
+      "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts": [
+        "../node_modules/@nestjs/testing/testing-module.builder.d.ts",
+        "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/testing/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/testing/interfaces/override-by-factory-options.interface.d.ts",
+        "../node_modules/@nestjs/testing/interfaces/override-by.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/testing/test.d.ts": [
+        "../node_modules/@nestjs/common/interfaces/modules/module-metadata.interface.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.builder.d.ts"
+      ],
+      "../node_modules/@nestjs/testing/index.d.ts": [
+        "../node_modules/@nestjs/testing/interfaces/index.d.ts",
+        "../node_modules/@nestjs/testing/test.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.d.ts",
+        "../node_modules/@nestjs/testing/testing-module.builder.d.ts"
       ],
       "../src/users/forbidden.exception.ts": [
         "../node_modules/@nestjs/common/index.d.ts"

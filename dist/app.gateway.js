@@ -43,6 +43,19 @@ let AppGateway = class AppGateway {
         client.join(room);
         client.emit('joinedRoom', room);
     }
+    handleInviteFrinde(client, frinders) {
+        console.log('invite_frinde', frinders);
+        this.server.to(frinders.guest).emit('invite_to_frinde', frinders.host);
+    }
+    handleConfFrinde(client, message) {
+        console.log('conf_frinde', message);
+        this.server.to(message.host).emit('conf_to_frinde', message.conf);
+    }
+    handlejoinFrinde(client, message) {
+        console.log('join_room_tow', message);
+        client.join(message.room);
+        client.emit('joined_tow_frindes', message.room);
+    }
     hanleLeaveRoom(client, room) {
         console.log('leaveRoom');
         client.leave(room);
@@ -98,6 +111,24 @@ __decorate([
     __metadata("design:paramtypes", [Object, String]),
     __metadata("design:returntype", void 0)
 ], AppGateway.prototype, "handlejoinRoom", null);
+__decorate([
+    websockets_1.SubscribeMessage('invite_frinde'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:returntype", void 0)
+], AppGateway.prototype, "handleInviteFrinde", null);
+__decorate([
+    websockets_1.SubscribeMessage('conf_frinde'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:returntype", void 0)
+], AppGateway.prototype, "handleConfFrinde", null);
+__decorate([
+    websockets_1.SubscribeMessage('join_room_tow'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:returntype", void 0)
+], AppGateway.prototype, "handlejoinFrinde", null);
 __decorate([
     websockets_1.SubscribeMessage('leaveRoom'),
     __metadata("design:type", Function),
