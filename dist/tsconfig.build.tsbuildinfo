@@ -4217,7 +4217,7 @@
         "affectsGlobalScope": false
       },
       "../src/users/users.service.ts": {
-        "version": "45f8c0803db2f7f886bb2653d7bcaa7b4ece7f4b99bcb07f9b3d8a1c3d21ea0f",
+        "version": "4d30a9c1bab814d0e2adbe925379dce92afdbbebacb914c0dbb8a8bc4203111b",
         "signature": "7d26e1b7e0692eb13ea7a038c2de5d9772dcfa9671eb4d215ef562a65db52013",
         "affectsGlobalScope": false
       },

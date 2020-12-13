@@ -46,7 +46,6 @@ let UsersService = class UsersService {
         new_user.scores = createUserDto.scores;
         new_user.photo_url = createUserDto.photo_url;
         new_user.is_active = true;
-        new_user.role = 'admin';
         console.log(new_user);
         this.gateway.server.emit('new_user', new_user);
         const user = await this.repo.save(new_user);
