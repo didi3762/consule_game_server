@@ -3546,7 +3546,7 @@
         "signature": "7407cd09fb43b125bbc31678836b16fc0231004c6c37aead941b6914fabdc385"
       },
       "../src/users/users.service.ts": {
-        "version": "44cec0fef8a2a1c5ee014d59384df93350597001a1f0b2476e4c98b7e75363d7",
+        "version": "45f8c0803db2f7f886bb2653d7bcaa7b4ece7f4b99bcb07f9b3d8a1c3d21ea0f",
         "signature": "7d26e1b7e0692eb13ea7a038c2de5d9772dcfa9671eb4d215ef562a65db52013"
       },
       "../node_modules/@nestjs/platform-express/interfaces/serve-static-options.interface.d.ts": {
