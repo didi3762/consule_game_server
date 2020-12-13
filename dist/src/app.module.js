@@ -34,7 +34,7 @@ AppModule = __decorate([
     common_1.Module({
         imports: [
             serve_static_1.ServeStaticModule.forRoot({
-                rootPath: path_1.join(__dirname, '..', 'angular', 'dist', 'gameproj'),
+                rootPath: path_1.join(__dirname, '..', 'angular'),
             }),
             users_module_1.UsersModule,
             database_module_1.DatabaseModule,
