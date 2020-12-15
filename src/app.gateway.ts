@@ -59,16 +59,17 @@ export class AppGateway implements OnGatewayInit, OnGatewayConnection, OnGateway
  }
 
  @SubscribeMessage('conf_frinde')
- handleConfFrinde(client: Socket, message: { host:string ,  conf:boolean}): void {
+ handleConfFrinde(client: Socket, message: { conf:boolean,host:string, guest:string ,room:string}): void {
    console.log('conf_frinde',message);
-   this.server.to(message.host).emit('conf_to_frinde', message.conf);
+   this.server.to(message.host).emit('conf_to_frinde', {conf:message.conf,room:`${message.host} & ${message.guest}`});
+   this.server.to(message.guest).emit('conf_to_frinde', {conf:message.conf, room:`${message.host} & ${message.guest}`});
  }
 
  @SubscribeMessage('join_room_tow')
  handlejoinFrinde(client: Socket, message: { host:string ,  guest:string , room:string}): void {
    console.log('join_room_tow',message);
    client.join(message.room);
-   client.emit('joined_tow_frindes',message.room)
+   this.server.emit('joined_tow_frindes',{host:message.host,guest:message.guest,room:message.room})
  }
 
  @SubscribeMessage('leaveRoom')
@@ -76,6 +77,12 @@ export class AppGateway implements OnGatewayInit, OnGatewayConnection, OnGateway
    console.log('leaveRoom');
    client.leave(room)
    client.emit('leftRoom', room);
+ }
+
+ @SubscribeMessage('select_game')
+ selectGame(client: Socket,selct:{url:string, room: string}): void {
+   console.log('select_game',selct);
+   this.server.to(selct.room).emit('selected_game',selct.url);
  }
 
  afterInit(server: Server) {

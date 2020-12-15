@@ -1246,8 +1246,8 @@
         "signature": "7d666a6623022683b640930047127f754d79393a29c0f51f3447325f8435809f"
       },
       "../src/app.gateway.ts": {
-        "version": "15ec662049000259a493675187a33c49ee7d3979a4e155610005e604680b1620",
-        "signature": "0c75a8e01c6b825dbadede32d930655511c8398d044e13631128883650db8048"
+        "version": "58a07a5a8d87093cb7c030550989c83b415b77cda9af535640921339f4885feb",
+        "signature": "9203f6720e093332f4eb3c4dea3b8b4565f267de02f77d42e4302231442e1996"
       },
       "../node_modules/class-validator/types/validation/validationerror.d.ts": {
         "version": "d224f2ef464cf2a544dcf6be6b416db5563aa5ca4c94e2a1d93bf3765c1f77cb",

@@ -48,17 +48,22 @@ let AppGateway = class AppGateway {
     }
     handleConfFrinde(client, message) {
         console.log('conf_frinde', message);
-        this.server.to(message.host).emit('conf_to_frinde', message.conf);
+        this.server.to(message.host).emit('conf_to_frinde', { conf: message.conf, room: `${message.host} & ${message.guest}` });
+        this.server.to(message.guest).emit('conf_to_frinde', { conf: message.conf, room: `${message.host} & ${message.guest}` });
     }
     handlejoinFrinde(client, message) {
         console.log('join_room_tow', message);
         client.join(message.room);
-        client.emit('joined_tow_frindes', message.room);
+        this.server.emit('joined_tow_frindes', { host: message.host, guest: message.guest, room: message.room });
     }
     hanleLeaveRoom(client, room) {
         console.log('leaveRoom');
         client.leave(room);
         client.emit('leftRoom', room);
+    }
+    selectGame(client, selct) {
+        console.log('select_game', selct);
+        this.server.to(selct.room).emit('selected_game', selct.url);
     }
     afterInit(server) {
         this.logger.log('Init');
@@ -134,6 +139,12 @@ __decorate([
     __metadata("design:paramtypes", [Object, String]),
     __metadata("design:returntype", void 0)
 ], AppGateway.prototype, "hanleLeaveRoom", null);
+__decorate([
+    websockets_1.SubscribeMessage('select_game'),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Object]),
+    __metadata("design:returntype", void 0)
+], AppGateway.prototype, "selectGame", null);
 AppGateway = __decorate([
     websockets_1.WebSocketGateway(3001)
 ], AppGateway);

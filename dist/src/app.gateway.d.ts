@@ -23,8 +23,10 @@ export declare class AppGateway implements OnGatewayInit, OnGatewayConnection, O
         guest: string;
     }): void;
     handleConfFrinde(client: Socket, message: {
-        host: string;
         conf: boolean;
+        host: string;
+        guest: string;
+        room: string;
     }): void;
     handlejoinFrinde(client: Socket, message: {
         host: string;
@@ -32,6 +34,10 @@ export declare class AppGateway implements OnGatewayInit, OnGatewayConnection, O
         room: string;
     }): void;
     hanleLeaveRoom(client: Socket, room: string): void;
+    selectGame(client: Socket, selct: {
+        url: string;
+        room: string;
+    }): void;
     afterInit(server: Server): void;
     handleDisconnect(client: Socket): void;
     handleConnection(client: Socket, ...args: any[]): void;
